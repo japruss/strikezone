@@ -1,0 +1,6 @@
+#This will add the strikezone to any plot including lines for zone breakdown
++annotate('rect', xmin = -.85, xmax = .85, ymin = 1.593172, ymax = 3.357285,alpha=.01,color='black')+annotate("segment", x = -.2833, xend = -.2833, y=1.593172, yend = 3.357285,alpha=.5) +annotate("segment", x=.2833, xend = .2833, y=1.593172, yend = 3.357285,alpha=.5)+annotate("segment",x=-.85, xend = .85, y = 2.18121, yend = 2.18121,alpha=.5)+annotate("segment",x=-.85, xend = .85, y = 2.769247, yend = 2.769247,alpha=.5)+annotate("segment", x=0,xend = 0,y=3.35728, yend = 5.5,alpha=.5)+annotate("segment",x=0,xend=0,y=1.593172,yend=0,alpha=.5)+annotate('segment',x=-.85, xend = -2, y=2.475229, yend = 2.475229,alpha=.5)+annotate('segment',x=.85, xend = 2, y=2.475229, yend = 2.475229,alpha=.5)
+
+
+#This will add only a rectangle with no other lines to depict the strike zone
++annotate('rect', xmin = -.85, xmax = .85, ymin = 1.593172, ymax = 3.357285,alpha=.01,color='black')
